@@ -1,0 +1,91 @@
+ body {
+    margin: 0;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background-color: #ffffff;
+}
+
+
+section {
+    padding: 80px 20px;
+    text-align: center;
+}
+
+
+h1 {
+    font-size: 40px;
+    color: #222;
+
+
+    body {
+        margin: 0;
+        font-family: 'Segoe UI', Arial, sans-serif;
+        background-color: #f5f7fb;
+        /* ya no blanco puro */
+    }
+
+
+    section {
+        padding: 80px 20px;
+        text-align: center;
+    }
+
+
+    h1 {
+        font-size: 40px;
+        color: #222;
+    }
+
+
+    h2 {
+        color: #222;
+    }
+
+
+    p {
+        color: #555;
+    }
+
+
+    button {
+        padding: 12px 25px;
+        border: none;
+        background-color: #6366f1;
+        color: white;
+        border-radius: 8px;
+        cursor: pointer;
+        font-weight: 600;
+    }
+
+
+    button:hover {
+        background-color: #4f46e5;
+    }
+}
+
+
+h2 {
+    color: #222;
+}
+
+
+p {
+    color: #666;
+    font-size: 16px;
+}
+
+
+button {
+    padding: 12px 25px;
+    border: none;
+    background-color: #4f46e5;
+    /* violeta moderno */
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+
+button:hover {
+    background-color: #4338ca;
+}

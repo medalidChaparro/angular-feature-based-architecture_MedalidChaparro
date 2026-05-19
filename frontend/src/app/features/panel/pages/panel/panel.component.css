@@ -1,0 +1,89 @@
+/* PANEL */
+.panel-container {
+  padding: 20px;
+}
+
+/* TOPBAR */
+.topbar {
+  margin-bottom: 35px;
+}
+
+.topbar h1 {
+  font-size: 34px;
+  color: #111827;
+  margin-bottom: 8px;
+}
+
+.topbar p {
+  color: #6b7280;
+  font-size: 15px;
+}
+
+/* BOTÓN HOME */
+.home-btn {
+  display: inline-block;
+  margin-top: 18px;
+  padding: 12px 20px;
+  background: linear-gradient(135deg, #6366f1, #4f46e5);
+  color: white;
+  text-decoration: none;
+  border-radius: 10px;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.home-btn:hover {
+  transform: translateY(-2px);
+  opacity: 0.9;
+}
+
+/* GRID CARDS */
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+  gap: 25px;
+}
+
+/* CARD */
+.card {
+  background: white;
+  padding: 28px;
+  border-radius: 18px;
+  box-shadow: 0 8px 25px rgba(0,0,0,0.05);
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+/* TITULO */
+.card h3 {
+  color: #111827;
+  margin-bottom: 12px;
+  font-size: 18px;
+}
+
+/* TEXTO */
+.card p {
+  color: #6b7280;
+  font-size: 14px;
+  margin-bottom: 20px;
+  line-height: 1.5;
+}
+
+/* NÚMEROS */
+.card span {
+  font-size: 34px;
+  font-weight: bold;
+  color: #4f46e5;
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+
+  .topbar h1 {
+    font-size: 28px;
+  }
+
+}
